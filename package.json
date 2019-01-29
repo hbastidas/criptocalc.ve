@@ -1,7 +1,7 @@
 {
   "name": "calvecripto",
   "description": "a simple library to calculate crypts in Venezuela",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "scripts": {
       "build": "webpack --config webpack.config.js",
       "command": "./bin/calvecripto.js"
@@ -11,6 +11,10 @@
   },
   "author": "Heber Bastidas",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hbastidas/calvecripto.git"
+  },
   "dependencies": {
     "coingecko-api": "^1.0.3"
   },

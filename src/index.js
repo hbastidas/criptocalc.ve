@@ -30,12 +30,3 @@ CalveCripto.prototype.price= async function (){
 
 
 module.exports = CalveCripto;
-// lkrprices(currenciesdata).then(function(data){
-//   console.log(data)
-// })
-
-
-// (async() => {
-//   const [precios] = await Promise.all([prices(currenciesdata, symbols)]);
-//   console.log(precios)
-// })()
